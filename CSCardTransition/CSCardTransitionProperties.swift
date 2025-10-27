@@ -7,14 +7,7 @@
 
 import UIKit
 
-public struct CSCardTransitionProperties {
-    public static var normal = CSCardTransitionProperties()
-    public static var debug = CSCardTransitionProperties(
-        presentPositioningDuration: 7, presentResizingDuration: 8, presentStatusStyleUpdateDuration: 3,
-        dismissPositioningDuration: 5, dismissResizingDuration: 4, dismissBlurDuration: 2,
-        dismissStatusStyleUpdateDuration: 3, dismissFadeCardAnimationTime: 0.1, cancelTransitionResizingDuration: 3
-    )
-    
+public struct CSCardTransitionProperties {    
     var presentPositioningDuration: TimeInterval
     var presentResizingDuration: TimeInterval
     var presentStatusStyleUpdateDuration: TimeInterval

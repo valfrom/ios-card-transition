@@ -23,7 +23,7 @@ let package = Package(
             exclude: [],
             sources: ["./"],
             swiftSettings: [
-                .unsafeFlags(["-O"])
+//                .unsafeFlags(["-O"])
             ]
         ),
     ]

@@ -136,7 +136,7 @@ public extension CSCardViewPresenter {
 }
 public extension CSCardPresentedView {
     var cardTransitionEnabled: Bool { true }
-    var cardTransitionProperties: CSCardTransitionProperties { return .normal }
+    var cardTransitionProperties: CSCardTransitionProperties { return CSCardTransitionProperties() }
     func cardPresentedViewWillStartPresenting(from cardView: UIView) {}
     func cardPresentedViewDidStartPresenting() {}
     func cardPresentedViewWillEndPresenting() {}

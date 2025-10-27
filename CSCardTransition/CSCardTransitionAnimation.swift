@@ -64,6 +64,7 @@ extension CSCardTransitionAnimation: UIViewControllerAnimatedTransitioning {
     }
 }
 
+@MainActor
 extension CSCardTransitionAnimation {
     internal func presentAnimation( _ transitionContext: UIViewControllerContextTransitioning) {
         let container = transitionContext.containerView
